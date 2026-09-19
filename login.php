@@ -26,6 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HRMS Login</title>
+    <link rel="icon" type="image/svg+xml" href="assets/hrms-logo.svg?v=20260920">
     <link rel="stylesheet" href="assets/style.css?v=20260920">
     <link rel="stylesheet" href="assets/light-theme.css?v=20260920">
 </head>
@@ -34,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <main class="login-shell">
         <section class="login-showcase">
             <div class="showcase-grid"></div>
-            <div class="showcase-top"><span class="brand-mark">H</span><span>HRMS</span></div>
+            <div class="showcase-top"><img class="showcase-logo" src="assets/hrms-logo.svg?v=20260920" alt="HRMS - Human Resource Management System"><span class="secure-pill"><i></i> SYSTEM ONLINE</span></div>
             <div class="showcase-copy">
                 <p class="eyebrow">PEOPLE OPERATIONS / 02</p>
                 <h1>Your people,<br><em>in sync.</em></h1>

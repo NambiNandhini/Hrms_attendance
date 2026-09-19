@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+  <title id="title">HRMS</title>
+  <desc id="desc">Human Resource Management System</desc>
+  <g transform="translate(12 16)">
+    <circle cx="48" cy="28" r="15" fill="#f6a623"/>
+    <circle cx="22" cy="48" r="13" fill="#ef6c31"/>
+    <circle cx="75" cy="48" r="13" fill="#4caf72"/>
+    <path d="M9 92c2-22 14-34 31-34s29 12 31 34H9Z" fill="#f6a623"/>
+    <path d="M46 92c2-25 16-40 36-40 18 0 31 15 33 40H46Z" fill="#1684bd"/>
+    <path d="M72 92c2-22 14-34 31-34s29 12 31 34H72Z" fill="#4caf72"/>
+    <path d="M8 94h126" stroke="#123b60" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="165" y="78" fill="#123b60" font-family="Arial, sans-serif" font-size="58" font-weight="700">HRMS</text>
+  <text x="168" y="108" fill="#52718a" font-family="Arial, sans-serif" font-size="13" letter-spacing="1">HUMAN RESOURCE MANAGEMENT SYSTEM</text>
+</svg>
