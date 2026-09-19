@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <main class="login-shell">
         <section class="login-showcase">
             <div class="showcase-grid"></div>
-            <div class="showcase-top"><img class="showcase-logo" src="assets/hrms-logo.svg" alt="HRMS - Human Resource Management System"><span class="secure-pill"><i></i> SYSTEM ONLINE</span></div>
+            <div class="showcase-top"><span class="brand-mark">H</span><span>HRMS</span></div>
             <div class="showcase-copy">
                 <p class="eyebrow">PEOPLE OPERATIONS / 02</p>
                 <h1>Your people,<br><em>in sync.</em></h1>
