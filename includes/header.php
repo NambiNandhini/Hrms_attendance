@@ -16,9 +16,7 @@ $page = $_GET['page'] ?? 'dashboard';
 <body>
     <div class="app">
         <aside class="sidebar">
-            <div class="logo">
-                <div>HRMS</div><small>Leave &amp; Attendance</small>
-            </div>
+            <div class="logo"><img src="assets/hrms-logo.svg" alt="HRMS - Human Resource Management System"><small>Leave &amp; Attendance</small></div>
             <nav><?php $groups = $user['role'] === 'admin' ? ['Overview' => [['dashboard', '▦', 'Dashboard']], 'Master Data' => [['employees', '◈', 'Employees'], ['shifts', '⏱', 'Shifts'], ['leave-types', '◌', 'Leave Types']], 'Attendance Management' => [['punches', '⬛', 'Punch Records'], ['attendance', '▤', 'Attendance']], 'Leave' => [['leave-balance', '◉', 'Leave Balances'], ['leave-applications', '◎', 'Leave Applications'], ['leave-transactions', '≡', 'Leave Status']], 'Processing' => [['monthly-processing', '◫', 'Monthly Processing']], 'Reports' => [['reports', '◪', 'Reports']]] : ['Employee' => [['employee-dashboard', '▦', 'My Dashboard'], ['employee-leave', '◎', 'Apply for Leave']]];
                     foreach ($groups as $g => $items): ?><div class="nav-group">
                         <div class="nav-label"><?= e($g) ?></div><?php foreach ($items as [$slug, $icon, $label]): ?><a class="sidebar-item <?= $page === $slug ? 'active' : '' ?>" href="index.php?page=<?= $slug ?>"><span><?= $icon ?></span><?= e($label) ?></a><?php endforeach; ?>
